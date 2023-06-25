@@ -1,0 +1,176 @@
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\appsettings.json
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\ApiProductos.exe
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\ApiProductos.deps.json
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\ApiProductos.runtimeconfig.json
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\ApiProductos.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\ApiProductos.pdb
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Humanizer.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.csproj.AssemblyReference.cache
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.AssemblyInfoInputs.cache
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.AssemblyInfo.cs
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.csproj.CoreCompileInputs.cache
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets\msbuild.ApiProductos.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiProductos.props
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiProductos.props
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiProductos.props
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\scopedcss\bundle\ApiProductos.styles.css
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.csproj.CopyComplete
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\refint\ApiProductos.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.pdb
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.genruntimeconfig.cache
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\obj\Debug\net6.0\ref\ApiProductos.dll
+C:\Users\JOSE-PC\Desktop\curso c#\CreandoAPIS\ApiProductos\ApiProductos\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.csproj.AssemblyReference.cache
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.AssemblyInfoInputs.cache
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.AssemblyInfo.cs
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.csproj.CoreCompileInputs.cache
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.MvcApplicationPartsAssemblyInfo.cs
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.MvcApplicationPartsAssemblyInfo.cache
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\refint\ApiProductos.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.pdb
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\appsettings.Development.json
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\appsettings.json
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\ApiProductos.exe
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\ApiProductos.deps.json
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\ApiProductos.runtimeconfig.json
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\ApiProductos.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\ApiProductos.pdb
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Azure.Core.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Azure.Identity.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Humanizer.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\System.CodeDom.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Memory.Data.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Text.Json.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets\msbuild.ApiProductos.Microsoft.AspNetCore.StaticWebAssets.props
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiProductos.props
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiProductos.props
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiProductos.props
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets.pack.json
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets.build.json
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\staticwebassets.development.json
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\scopedcss\bundle\ApiProductos.styles.css
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.csproj.CopyComplete
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ApiProductos.genruntimeconfig.cache
+D:\PROYECTO JOSE IBERICO API\ApiProductos\ApiProductos\obj\Debug\net6.0\ref\ApiProductos.dll

@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Cliente";
+}
+
+@model List<AppWebProductos.Models.Cliente>
+
+
+<h1 class="display-4">Tabla de Clientes</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Direccion</th>
+            <th>Telefono</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @{
+                foreach(var clientes in Model)
+                {
+                    <td>@clientes.Id_Cliente</td>
+                    <td>@clientes.Nombre</td>
+                    <td>@clientes.Direccion</td>
+                    <td>@clientes.Telefono</td>
+                }               
+            }
+        </tr>
+        </tbody>
+ </table>
