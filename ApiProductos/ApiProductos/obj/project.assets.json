@@ -3771,19 +3771,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ce.ibericoc\\.nuget\\packages\\": {}
+    "C:\\Users\\JOSE-PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROYECTO JOSE IBERICO API\\AppProductos\\ApiProductos\\ApiProductos\\ApiProductos.csproj",
+      "projectUniqueName": "C:\\Users\\JOSE-PC\\Desktop\\Proyecto Iberico\\ApiProductos\\ApiProductos\\ApiProductos.csproj",
       "projectName": "ApiProductos",
-      "projectPath": "D:\\PROYECTO JOSE IBERICO API\\AppProductos\\ApiProductos\\ApiProductos\\ApiProductos.csproj",
-      "packagesPath": "C:\\Users\\ce.ibericoc\\.nuget\\packages\\",
-      "outputPath": "D:\\PROYECTO JOSE IBERICO API\\AppProductos\\ApiProductos\\ApiProductos\\obj\\",
+      "projectPath": "C:\\Users\\JOSE-PC\\Desktop\\Proyecto Iberico\\ApiProductos\\ApiProductos\\ApiProductos.csproj",
+      "packagesPath": "C:\\Users\\JOSE-PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JOSE-PC\\Desktop\\Proyecto Iberico\\ApiProductos\\ApiProductos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ce.ibericoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JOSE-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
