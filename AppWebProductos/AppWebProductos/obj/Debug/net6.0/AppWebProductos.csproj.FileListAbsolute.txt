@@ -31,3 +31,36 @@ C:\Users\JOSE-PC\Desktop\curso c#\Proyectos MVC\AppWebProductos\AppWebProductos\
 C:\Users\JOSE-PC\Desktop\curso c#\Proyectos MVC\AppWebProductos\AppWebProductos\obj\Debug\net6.0\ref\AppWebProductos.dll
 C:\Users\JOSE-PC\Desktop\curso c#\Proyectos MVC\AppWebProductos\AppWebProductos\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\JOSE-PC\Desktop\curso c#\Proyectos MVC\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.csproj.CopyComplete
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\bin\Debug\net6.0\appsettings.Development.json
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\bin\Debug\net6.0\appsettings.json
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\bin\Debug\net6.0\AppWebProductos.staticwebassets.runtime.json
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\bin\Debug\net6.0\AppWebProductos.exe
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\bin\Debug\net6.0\AppWebProductos.deps.json
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\bin\Debug\net6.0\AppWebProductos.runtimeconfig.json
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\bin\Debug\net6.0\AppWebProductos.dll
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\bin\Debug\net6.0\AppWebProductos.pdb
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.csproj.AssemblyReference.cache
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.AssemblyInfoInputs.cache
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.AssemblyInfo.cs
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.csproj.CoreCompileInputs.cache
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.MvcApplicationPartsAssemblyInfo.cache
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.RazorAssemblyInfo.cache
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.RazorAssemblyInfo.cs
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\staticwebassets\msbuild.AppWebProductos.Microsoft.AspNetCore.StaticWebAssets.props
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\staticwebassets\msbuild.build.AppWebProductos.props
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AppWebProductos.props
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AppWebProductos.props
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\staticwebassets.pack.json
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\staticwebassets.build.json
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\staticwebassets.development.json
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\scopedcss\bundle\AppWebProductos.styles.css
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\scopedcss\projectbundle\AppWebProductos.bundle.scp.css
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.csproj.CopyComplete
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.dll
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\refint\AppWebProductos.dll
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.pdb
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\AppWebProductos.genruntimeconfig.cache
+D:\PROYECTO JOSE IBERICO API\AppProductos\AppWebProductos\AppWebProductos\obj\Debug\net6.0\ref\AppWebProductos.dll

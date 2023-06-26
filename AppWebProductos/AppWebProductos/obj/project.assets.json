@@ -55,19 +55,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JOSE-PC\\.nuget\\packages\\": {}
+    "C:\\Users\\ce.ibericoc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JOSE-PC\\Desktop\\curso c#\\Proyectos MVC\\AppWebProductos\\AppWebProductos\\AppWebProductos.csproj",
+      "projectUniqueName": "D:\\PROYECTO JOSE IBERICO API\\AppProductos\\AppWebProductos\\AppWebProductos\\AppWebProductos.csproj",
       "projectName": "AppWebProductos",
-      "projectPath": "C:\\Users\\JOSE-PC\\Desktop\\curso c#\\Proyectos MVC\\AppWebProductos\\AppWebProductos\\AppWebProductos.csproj",
-      "packagesPath": "C:\\Users\\JOSE-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JOSE-PC\\Desktop\\curso c#\\Proyectos MVC\\AppWebProductos\\AppWebProductos\\obj\\",
+      "projectPath": "D:\\PROYECTO JOSE IBERICO API\\AppProductos\\AppWebProductos\\AppWebProductos\\AppWebProductos.csproj",
+      "packagesPath": "C:\\Users\\ce.ibericoc\\.nuget\\packages\\",
+      "outputPath": "D:\\PROYECTO JOSE IBERICO API\\AppProductos\\AppWebProductos\\AppWebProductos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JOSE-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ce.ibericoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
