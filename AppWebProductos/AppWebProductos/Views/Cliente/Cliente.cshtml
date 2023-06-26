@@ -4,7 +4,7 @@
 
 @model List<AppWebProductos.Models.Cliente>
 
-
+<a class="btn btn-secondary" asp-area="" asp-controller="Cliente" asp-action="AgregarCliente">Agregar Cliente</a>
 <h1 class="display-4">Tabla de Clientes</h1>
 
 <table class="table">
@@ -17,16 +17,14 @@
         </tr>
     </thead>
     <tbody>
+        @foreach(var clientes in Model)
+        {
         <tr>
-            @{
-                foreach(var clientes in Model)
-                {
-                    <td>@clientes.Id_Cliente</td>
-                    <td>@clientes.Nombre</td>
-                    <td>@clientes.Direccion</td>
-                    <td>@clientes.Telefono</td>
-                }               
-            }
+            <td>@clientes.Id_Cliente</td>
+            <td>@clientes.Nombre</td>
+            <td>@clientes.Direccion</td>
+            <td>@clientes.Telefono</td>
         </tr>
-        </tbody>
+        }
+    </tbody>
  </table>

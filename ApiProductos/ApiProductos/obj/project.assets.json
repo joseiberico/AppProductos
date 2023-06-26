@@ -3776,11 +3776,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JOSE-PC\\Desktop\\Proyecto Iberico\\ApiProductos\\ApiProductos\\ApiProductos.csproj",
+      "projectUniqueName": "C:\\Proyecto Iberico\\ApiProductos\\ApiProductos\\ApiProductos.csproj",
       "projectName": "ApiProductos",
-      "projectPath": "C:\\Users\\JOSE-PC\\Desktop\\Proyecto Iberico\\ApiProductos\\ApiProductos\\ApiProductos.csproj",
+      "projectPath": "C:\\Proyecto Iberico\\ApiProductos\\ApiProductos\\ApiProductos.csproj",
       "packagesPath": "C:\\Users\\JOSE-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JOSE-PC\\Desktop\\Proyecto Iberico\\ApiProductos\\ApiProductos\\obj\\",
+      "outputPath": "C:\\Proyecto Iberico\\ApiProductos\\ApiProductos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JOSE-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
