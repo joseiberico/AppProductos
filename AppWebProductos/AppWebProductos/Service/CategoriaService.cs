@@ -22,9 +22,9 @@ namespace AppWebProductos.Service
             {
                 Console.WriteLine(content);
             }
-            
-            List<Categoria> Categorias = JsonConvert.DeserializeObject<List<Categoria>>(content);
-            return Categorias;
+
+            List<Categoria> categorias = JsonConvert.DeserializeObject<List<Categoria>>(content);
+            return categorias;
         }
     }
 }
