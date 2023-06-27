@@ -1,5 +1,6 @@
 ﻿using ApiProductos.Models;
-using ApiProductos.Repository.iRepository;
+using ApiProductos.Services.iServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiProductos.Controllers
@@ -14,10 +15,10 @@ namespace ApiProductos.Controllers
             _CategoriaRepository = CategoriaRepository;
         }
         [HttpGet]
-        public IActionResult ListaCategorias()
+        public async Task<IActionResult> ListaCategorias()
         {
-            var categorias = _CategoriaRepository.GetAll();
-            return Ok(categorias);
+            var categorias = await _CategoriaRepository.GetAll();
+            return Ok(categorias.FirstOrDefault());
         }
 
         [HttpGet("{id}")]

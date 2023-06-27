@@ -1,6 +1,6 @@
 ﻿using ApiProductos.Models;
-using ApiProductos.Repository;
-using ApiProductos.Repository.iRepository;
+using ApiProductos.Services;
+using ApiProductos.Services.iServices;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiProductos.Controllers
@@ -16,10 +16,10 @@ namespace ApiProductos.Controllers
         }
         [HttpGet]
        
-        public IActionResult GetAll()
+        public async Task <IActionResult> GetAll()
         {
-            var ventas = _VentaRepository.GetAll();
-            return Ok(ventas);
+            var ventas = await _VentaRepository.GetAll();
+            return Ok(ventas.FirstOrDefault());
         }
 
         [HttpGet("{id}")]

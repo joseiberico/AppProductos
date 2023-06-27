@@ -1,14 +1,14 @@
 ﻿using ApiProductos.Context;
 using ApiProductos.Models;
-using ApiProductos.Repository.iRepository;
+using ApiProductos.Services.iServices;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using System.Xml.Linq;
 
-namespace ApiProductos.Repository
+namespace ApiProductos.Services
 {
-    public class CategoriaRepository : iRepository.IRepository<Categoria>
+    public class CategoriaRepository : iServices.IRepository<Categoria>
     {
         private readonly DbSet<Categoria> _DbSet;
         private readonly ProductosDbContext _context;
@@ -19,9 +19,9 @@ namespace ApiProductos.Repository
             _DbSet = context.Set<Categoria>();
         }
 
-        public IEnumerable<Categoria> GetAll()
+        public async Task <IEnumerable<Categoria>> GetAll()
         {
-            return _DbSet.ToList();
+            return await _DbSet.ToListAsync();
         }
 
         public async Task<Categoria> GetById(int id)

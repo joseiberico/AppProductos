@@ -1,10 +1,12 @@
 ﻿using ApiProductos.Models;
-using ApiProductos.Repository;
-using ApiProductos.Repository.iRepository;
+using ApiProductos.Services;
+using ApiProductos.Services.iServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiProductos.Controllers
 {
+    
     [ApiController]
     [Route("api/[controller]")]
     public class ClienteController : Controller
@@ -15,10 +17,10 @@ namespace ApiProductos.Controllers
             _ClienteRepository = ClienteRepository;
         }
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var clientes = _ClienteRepository.GetAll();
-            return Ok(clientes);
+            var clientes = await _ClienteRepository.GetAll();
+            return Ok(clientes.FirstOrDefault());
         }
 
         [HttpGet("{id}")]

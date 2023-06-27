@@ -3,9 +3,9 @@ using ApiProductos.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-namespace ApiProductos.Repository
+namespace ApiProductos.Services
 {
-    public class VentaRepository : iRepository.IRepository<Venta>
+    public class VentaRepository : iServices.IRepository<Venta>
     {
         private readonly DbSet<Venta> _DbSet;
         private readonly ProductosDbContext _context;
@@ -16,9 +16,9 @@ namespace ApiProductos.Repository
             _DbSet = context.Set<Venta>();
         }
 
-        public IEnumerable<Venta> GetAll()
+        public async Task<IEnumerable<Venta>> GetAll()
         {
-            return _DbSet.ToList();
+            return await _DbSet.ToListAsync();
         }
 
         public async Task<Venta> GetById(int id)

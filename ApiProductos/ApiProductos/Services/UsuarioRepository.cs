@@ -1,11 +1,12 @@
 ﻿using ApiProductos.Context;
 using ApiProductos.Models;
+using ApiProductos.Services.iServices;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-namespace ApiProductos.Repository
+namespace ApiProductos.Services
 {
-    public class UsuarioRepository : iRepository.IRepository<Usuario>
+    public class UsuarioRepository : iServices.IUsuario<Usuario>
     {
         private readonly DbSet<Usuario> _DbSet;
         private readonly ProductosDbContext _context;
@@ -16,9 +17,9 @@ namespace ApiProductos.Repository
             _DbSet = context.Set<Usuario>();
         }
 
-        public IEnumerable<Usuario> GetAll()
+        public async Task<IEnumerable<Usuario>> GetAll()
         {
-            return _DbSet.ToList();
+            return await _DbSet.ToListAsync();
         }
 
         public async Task<Usuario> GetById(int id)
@@ -69,6 +70,19 @@ namespace ApiProductos.Repository
             await _context.SaveChangesAsync();
             return usuarios;
         }
+
+        //public Usuario IniciarSesion(string email, string password)
+        //{
+        //    var usuario = _DbSet.FirstOrDefault(user => user.Email == email && user.Contrasena == password);
+
+        //    if (usuario != null)
+        //    {
+        //        usuario.Contrasena = null;  // ¡Asegúrate de no devolver la contraseña!
+        //    }
+
+        //    return usuario;
+        //}
+
 
     }
 }
