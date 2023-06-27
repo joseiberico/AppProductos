@@ -16,3 +16,17 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.Contenedor_Imagen {
+    
+    text-align: center;
+}
+
+img {
+    width: 1000px;
+    box-shadow: 5px 10px 10px 10px #00ff90;
+}
+h1{
+    text-align:center;
+
+}

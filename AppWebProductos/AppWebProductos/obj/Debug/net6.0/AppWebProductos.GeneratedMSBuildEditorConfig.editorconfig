@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Proyecto Iberico\AppWebProductos\AppWebProductos
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Proyecto Iberico/AppWebProductos/AppWebProductos/Views/Categoria/Categoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENhdGVnb3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Proyecto Iberico/AppWebProductos/AppWebProductos/Views/Cliente/AgregarCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxBZ3JlZ2FyQ2xpZW50ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Categoria";
+}
+
+@model List<AppWebProductos.Models.Categoria>
+
+
+<h1 class="display-4">Tabla de Categoria</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var categoria in Model)
+        {
+            <tr>
+                <td>@categoria.Id_Categoria</td>
+                <td>@categoria.Nombre</td>
+                <td>@categoria.descripcion</td>
+            </tr>
+        }
+    </tbody>
+</table>
