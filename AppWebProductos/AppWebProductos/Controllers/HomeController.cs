@@ -7,17 +7,9 @@ namespace AppWebProductos.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly CategoriaService categoriaService;
-
-        public HomeController(CategoriaService Categoria)
-        {
-            categoriaService = Categoria;
-        }
-
         public async Task<IActionResult> Index()
         {
-            var categorias = await categoriaService.GetAll();
-            return View(categorias);
+          return View();
         }
 
         public IActionResult Privacy()

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cOmvRB9BKptNYAIf/H8neRMemy7LeTqHzpDp+bPq5gHZ0RgZEl9gAWGnC6HZJNbTl3NLfWoFlDKyEg6fHmpfaw==",
+  "dgSpecHash": "k3+S8f0X2wTy0IKVcuiHA4S4r1IDmnUpQB+VPTNauBHyWBBK4VQftjjNvHNl6oDFgAWS2TC05v8W/fjCULkp5Q==",
   "success": true,
-  "projectFilePath": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\AppWebProductos.csproj",
+  "projectFilePath": "D:\\PROYECTO JOSE IBERICO API\\AppProductos\\AppWebProductos\\AppWebProductos\\AppWebProductos.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\JOSE-PC\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\ce.ibericoc\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
