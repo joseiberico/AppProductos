@@ -18,7 +18,7 @@ namespace ApiProductos.Controllers
         public async Task <IActionResult> GetAll()
         {
             var detalleVentas = await _DetalleVentaRepository.GetAll();
-            return Ok(detalleVentas.FirstOrDefault());
+            return Ok(detalleVentas);
         }
 
         [HttpGet("{id}")]

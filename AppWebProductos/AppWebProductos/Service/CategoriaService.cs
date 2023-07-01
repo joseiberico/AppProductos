@@ -1,5 +1,6 @@
 ﻿using AppWebProductos.Models;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace AppWebProductos.Service
 {
@@ -25,6 +26,32 @@ namespace AppWebProductos.Service
 
             List<Categoria> categorias = JsonConvert.DeserializeObject<List<Categoria>>(content);
             return categorias;
+        }
+
+        public async Task<Categoria> AddCategoria(Categoria categoria)
+        {
+            // Serializar el objeto cliente a JSON
+            var jsonCategoria = JsonConvert.SerializeObject(categoria);
+
+            // Crear el contenido HTTP con el JSON del cliente
+            var httpContent = new StringContent(jsonCategoria, Encoding.UTF8, "application/json");
+
+            // Realizar la solicitud POST al servidor
+            var response = await _Client.PostAsync(_baseurl + "Categoria", httpContent);
+
+            // Leer la respuesta del servidor
+            var content = await response.Content.ReadAsStringAsync();
+
+            if (!response.IsSuccessStatusCode)
+            {
+                Console.WriteLine(content);
+                return null;
+            }
+
+            // Deserializar la respuesta JSON en un objeto Categoria
+            var categoriaAgregado = JsonConvert.DeserializeObject<Categoria>(content);
+
+            return categoriaAgregado;
         }
     }
 }

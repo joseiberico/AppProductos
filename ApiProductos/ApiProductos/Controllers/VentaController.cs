@@ -19,7 +19,7 @@ namespace ApiProductos.Controllers
         public async Task <IActionResult> GetAll()
         {
             var ventas = await _VentaRepository.GetAll();
-            return Ok(ventas.FirstOrDefault());
+            return Ok(ventas);
         }
 
         [HttpGet("{id}")]
@@ -49,7 +49,7 @@ namespace ApiProductos.Controllers
         [HttpPut]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Venta))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> GetFamilia(Venta venta)
+        public async Task<IActionResult> Update(Venta venta)
         {
             Venta? result = await _VentaRepository.Update(venta);
             if (result == null)

@@ -4,6 +4,7 @@
 
 @model List<AppWebProductos.Models.Categoria>
 
+<a class="btn btn-secondary" asp-area="" asp-controller="Categoria" asp-action="AgregarCategoria">Agregar Categoria</a>
 
 <h1 class="display-4">Tabla de Categoria</h1>
 
@@ -13,6 +14,7 @@
             <th>ID</th>
             <th>Nombre</th>
             <th>Descripción</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
@@ -22,6 +24,10 @@
                 <td>@categoria.Id_Categoria</td>
                 <td>@categoria.Nombre</td>
                 <td>@categoria.descripcion</td>
+                <td>
+                    <a class="btn btn-warning" asp-area="" asp-controller="Categoria" asp-action="EditarCategoria" asp-route-id="@categoria.Id_Categoria"><i class="bi bi-pencil-fill"></i>Editar</a>
+                    <a class="btn btn-danger" asp-area="" asp-controller="Categoria" asp-action="BorrarCategoria" asp-route-id="@categoria.Id_Categoria"><i class="bi bi-eraser-fill"></i>Borrar</a>
+                </td>
             </tr>
         }
     </tbody>

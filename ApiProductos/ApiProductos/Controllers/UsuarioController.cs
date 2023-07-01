@@ -28,7 +28,7 @@ namespace ApiProductos.Controllers
         public async Task<IActionResult> GetAll()
         {
             var usuarios = await _UsuarioRepository.GetAll();
-            return Ok(usuarios.FirstOrDefault());
+            return Ok(usuarios);
         }
 
         [HttpGet("{id}")]

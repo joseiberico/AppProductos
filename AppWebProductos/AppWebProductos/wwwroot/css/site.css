@@ -22,11 +22,31 @@ body {
     text-align: center;
 }
 
-img {
-    width: 1000px;
-    box-shadow: 5px 10px 10px 10px #00ff90;
-}
 h1{
     text-align:center;
 
+}
+
+/*primera parte*/
+
+.contenedor-principal {
+    margin-top: 20px;
+    text-align:justify;
+    
+}
+
+.contenedor-principal p {
+    margin-right:17px;
+    
+}
+
+.contenedor-principal img {
+    width:800px;
+}
+
+
+@media (max-width: 760px) {
+    .contenedor-principal {
+        flex-wrap:wrap;
+    }
 }

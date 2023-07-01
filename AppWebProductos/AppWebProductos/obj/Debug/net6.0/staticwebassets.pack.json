@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\AppWebProductos.bundle.scp.css"
     },
     {
+      "Id": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\wwwroot\\Imagenes\\gatito.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes\\gatito.jpeg"
+    },
+    {
       "Id": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\wwwroot\\Imagenes\\susanaAlvarado.jpg",
       "PackagePath": "staticwebassets\\Imagenes\\susanaAlvarado.jpg"
     },

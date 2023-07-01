@@ -20,7 +20,7 @@ namespace ApiProductos.Controllers
         public async Task<IActionResult> GetAll()
         {
             var clientes = await _ClienteRepository.GetAll();
-            return Ok(clientes.FirstOrDefault());
+            return Ok(clientes);
         }
 
         [HttpGet("{id}")]

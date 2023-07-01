@@ -18,7 +18,7 @@ namespace ApiProductos.Controllers
         public async Task<IActionResult> GetAll()
         {
             var products = await _ProductosRepository.GetAll();
-            return Ok(products.FirstOrDefault());
+            return Ok(products);
         }
 
         [HttpGet("{id}")]

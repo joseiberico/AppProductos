@@ -14,6 +14,7 @@
             <th>Nombre</th>
             <th>Direccion</th>
             <th>Telefono</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
@@ -24,6 +25,10 @@
             <td>@clientes.Nombre</td>
             <td>@clientes.Direccion</td>
             <td>@clientes.Telefono</td>
+                <td>
+                    <a class="btn btn-warning" asp-area="" asp-controller="Categoria" asp-action="EditarCategoria" asp-route-id="@clientes.Id_Cliente"><i class="bi bi-pencil-fill"></i>Editar</a>
+                    <a class="btn btn-danger" asp-area="" asp-controller="Categoria" asp-action="BorrarCategoria" asp-route-id="@clientes.Id_Cliente"><i class="bi bi-eraser-fill"></i>Borrar</a>
+                </td>
         </tr>
         }
     </tbody>

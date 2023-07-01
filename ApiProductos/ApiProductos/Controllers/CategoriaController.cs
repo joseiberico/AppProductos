@@ -18,7 +18,7 @@ namespace ApiProductos.Controllers
         public async Task<IActionResult> ListaCategorias()
         {
             var categorias = await _CategoriaRepository.GetAll();
-            return Ok(categorias.FirstOrDefault());
+            return Ok(categorias);
         }
 
         [HttpGet("{id}")]
