@@ -9,16 +9,16 @@
       "PackagePath": "staticwebassets\\Imagenes\\gatito.jpeg"
     },
     {
-      "Id": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\wwwroot\\Imagenes\\susanaAlvarado.jpg",
-      "PackagePath": "staticwebassets\\Imagenes\\susanaAlvarado.jpg"
-    },
-    {
       "Id": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\wwwroot\\js\\Categoria.js",
+      "PackagePath": "staticwebassets\\js\\Categoria.js"
     },
     {
       "Id": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\wwwroot\\js\\site.js",

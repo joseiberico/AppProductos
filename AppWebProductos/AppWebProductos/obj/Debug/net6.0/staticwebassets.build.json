@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0m4GPxtBab8RiogywvnmKaUzqkSDaIIX+QgFFIiHqAA=",
+  "Hash": "eVMD0sj0L+uKSaBUD56wd2q/Lu794/81lXu9vjgM8Q8=",
   "Source": "AppWebProductos",
   "BasePath": "_content/AppWebProductos",
   "Mode": "Default",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\gatito.jpeg"
     },
     {
-      "Identity": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\wwwroot\\Imagenes\\susanaAlvarado.jpg",
+      "Identity": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\wwwroot\\js\\Categoria.js",
       "SourceId": "AppWebProductos",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\wwwroot\\",
       "BasePath": "_content/AppWebProductos",
-      "RelativePath": "Imagenes/susanaAlvarado.jpg",
+      "RelativePath": "js/Categoria.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +116,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\susanaAlvarado.jpg"
+      "OriginalItemSpec": "wwwroot\\js\\Categoria.js"
     },
     {
       "Identity": "C:\\Proyecto Iberico\\AppWebProductos\\AppWebProductos\\wwwroot\\js\\site.js",

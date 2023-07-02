@@ -1,4 +1,6 @@
-﻿namespace AppWebProductos.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AppWebProductos.Models
 {
     public class Categoria
     {

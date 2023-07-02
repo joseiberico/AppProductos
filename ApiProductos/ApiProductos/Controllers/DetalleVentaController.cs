@@ -9,22 +9,22 @@ namespace ApiProductos.Controllers
     [Route("api/[controller]")]
     public class DetalleVentaController : Controller
     {
-        private readonly IRepository<Detalle_Venta> _DetalleVentaRepository;
-        public DetalleVentaController (IRepository<Detalle_Venta> DetalleVentaRepository)
+        private readonly IRepository<Detalle_Venta> _DetalleVentaServices;
+        public DetalleVentaController (IRepository<Detalle_Venta> DetalleVentaServices)
         {
-            _DetalleVentaRepository = DetalleVentaRepository;
+            _DetalleVentaServices = DetalleVentaServices;
         }
         [HttpGet]
         public async Task <IActionResult> GetAll()
         {
-            var detalleVentas = await _DetalleVentaRepository.GetAll();
+            var detalleVentas = await _DetalleVentaServices.GetAll();
             return Ok(detalleVentas);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var result = await _DetalleVentaRepository.GetById(id);
+            var result = await _DetalleVentaServices.GetById(id);
             return Ok(result);
 
         }
@@ -33,7 +33,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Detalle_Venta))]
         public async Task<IActionResult> CreateDetalleVentas(Detalle_Venta detalleVenta)
         {
-            Detalle_Venta result = await _DetalleVentaRepository.Create(detalleVenta);
+            Detalle_Venta result = await _DetalleVentaServices.Create(detalleVenta);
             return new CreatedResult($"https://localhost:7112/api/DetalleVenta/{result.Id_detalle}", null);
         }
 
@@ -41,7 +41,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(bool))]
         public async Task<IActionResult> Delete(int id)
         {
-            var result = await _DetalleVentaRepository.Delete(id);
+            var result = await _DetalleVentaServices.Delete(id);
             return new OkObjectResult(result);
         }
 
@@ -50,7 +50,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetFamilia(Detalle_Venta detalleVenta)
         {
-            Detalle_Venta? result = await _DetalleVentaRepository.Update(detalleVenta);
+            Detalle_Venta? result = await _DetalleVentaServices.Update(detalleVenta);
             if (result == null)
             return new NotFoundResult();
             return new OkObjectResult(result);

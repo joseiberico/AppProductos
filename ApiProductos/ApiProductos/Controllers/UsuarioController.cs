@@ -17,24 +17,24 @@ namespace ApiProductos.Controllers
     [Route("api/[controller]")]
     public class UsuarioController : Controller
     {
-        private readonly IUsuario<Usuario> _UsuarioRepository;
+        private readonly IUsuario<Usuario> _UsuarioServices;
 
-        public UsuarioController(IUsuario<Usuario> UsuarioRepository)
+        public UsuarioController(IUsuario<Usuario> UsuarioServices)
         {
-            _UsuarioRepository = UsuarioRepository;
+            _UsuarioServices = UsuarioServices;
         }
         [HttpGet]
 
         public async Task<IActionResult> GetAll()
         {
-            var usuarios = await _UsuarioRepository.GetAll();
+            var usuarios = await _UsuarioServices.GetAll();
             return Ok(usuarios);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var result = await _UsuarioRepository.GetById(id);
+            var result = await _UsuarioServices.GetById(id);
             return Ok(result);
 
         }
@@ -43,7 +43,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Usuario))]
         public async Task<IActionResult> Create(Usuario usuarios)
         {
-            Usuario result = await _UsuarioRepository.Create(usuarios);
+            Usuario result = await _UsuarioServices.Create(usuarios);
             return new CreatedResult($"https://localhost:7112/api/Usuario/{result.Id_Usuario}", null);
         }
 
@@ -51,7 +51,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(bool))]
         public async Task<IActionResult> Delete(int id)
         {
-            var result = await _UsuarioRepository.Delete(id);
+            var result = await _UsuarioServices.Delete(id);
             return new OkObjectResult(result);
         }
 
@@ -60,7 +60,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> Update(Usuario usuario)
         {
-            Usuario? result = await _UsuarioRepository.Update(usuario);
+            Usuario? result = await _UsuarioServices.Update(usuario);
             if (result == null)
                 return new NotFoundResult();
             return new OkObjectResult(result);

@@ -8,12 +8,12 @@ using System.Xml.Linq;
 
 namespace ApiProductos.Services
 {
-    public class CategoriaRepository : iServices.IRepository<Categoria>
+    public class CategoriaServices : IRepository<Categoria>
     {
         private readonly DbSet<Categoria> _DbSet;
         private readonly ProductosDbContext _context;
 
-        public CategoriaRepository(ProductosDbContext context)
+        public CategoriaServices(ProductosDbContext context)
         {
             _context = context;
             _DbSet = context.Set<Categoria>();

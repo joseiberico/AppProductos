@@ -11,22 +11,22 @@ namespace ApiProductos.Controllers
     [Route("api/[controller]")]
     public class ClienteController : Controller
     {
-        private readonly IRepository<Cliente> _ClienteRepository;
-        public ClienteController (IRepository<Cliente> ClienteRepository)
+        private readonly IRepository<Cliente> _ClienteServices;
+        public ClienteController (IRepository<Cliente> ClienteServices)
         {
-            _ClienteRepository = ClienteRepository;
+            _ClienteServices = ClienteServices;
         }
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var clientes = await _ClienteRepository.GetAll();
+            var clientes = await _ClienteServices.GetAll();
             return Ok(clientes);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var result = await _ClienteRepository.GetById(id);
+            var result = await _ClienteServices.GetById(id);
             return Ok(result);
 
         }
@@ -35,7 +35,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Cliente))]
         public async Task<IActionResult> Create(Cliente cliente)
         {
-            Cliente result = await _ClienteRepository.Create(cliente);
+            Cliente result = await _ClienteServices.Create(cliente);
             return new CreatedResult($"https://localhost:7112/api/Cliente/{result.Id_Cliente}", null);
         }
 
@@ -43,7 +43,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(bool))]
         public async Task<IActionResult> Delete(int id)
         {
-            var result = await _ClienteRepository.Delete(id);
+            var result = await _ClienteServices.Delete(id);
             return new OkObjectResult(result);
         }
 
@@ -52,7 +52,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetFamilia(Cliente cliente)
         {
-            Cliente? result = await _ClienteRepository.Update(cliente);
+            Cliente? result = await _ClienteServices.Update(cliente);
             if (result == null)
             return new NotFoundResult();
             return new OkObjectResult(result);

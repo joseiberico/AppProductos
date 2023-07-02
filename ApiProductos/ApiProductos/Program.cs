@@ -27,12 +27,12 @@ builder.Services.AddDbContext<ProductosDbContext>(options =>
 });
 
 
-builder.Services.AddScoped<IRepository<Productos>, ProductosRepository>();
-builder.Services.AddScoped<IRepository<Categoria>, CategoriaRepository>();
-builder.Services.AddScoped<IRepository<Detalle_Venta>, DetalleVentaRepository>();
-builder.Services.AddScoped<IUsuario<Usuario>, UsuarioRepository>();
-builder.Services.AddScoped<IRepository<Venta>, VentaRepository>();
-builder.Services.AddScoped<IRepository<Cliente>, ClienteRepository>();
+builder.Services.AddScoped<IRepository<Productos>, ProductosServices>();
+builder.Services.AddScoped<IRepository<Categoria>, CategoriaServices>();
+builder.Services.AddScoped<IRepository<Detalle_Venta>, DetalleVentaServices>();
+builder.Services.AddScoped<IUsuario<Usuario>, UsuarioServices>();
+builder.Services.AddScoped<IRepository<Venta>, VentaServices>();
+builder.Services.AddScoped<IRepository<Cliente>, ClienteServices>();
 // Register the API Key authorization filter
 //builder.Services.AddScoped<APIKeyAuthorizeAttribute>();
 

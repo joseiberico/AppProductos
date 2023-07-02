@@ -6,12 +6,12 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace ApiProductos.Services
 {
-    public class UsuarioRepository : iServices.IUsuario<Usuario>
+    public class UsuarioServices : IUsuario<Usuario>
     {
         private readonly DbSet<Usuario> _DbSet;
         private readonly ProductosDbContext _context;
 
-        public UsuarioRepository (ProductosDbContext context)
+        public UsuarioServices (ProductosDbContext context)
         {
             _context = context;
             _DbSet = context.Set<Usuario>();

@@ -9,22 +9,22 @@ namespace ApiProductos.Controllers
     [Route("api/[controller]")]
     public class CategoriaController : Controller
     {
-        private readonly IRepository<Categoria> _CategoriaRepository;
-        public CategoriaController(IRepository<Categoria> CategoriaRepository)
+        private readonly IRepository<Categoria> _CategoriaServices;
+        public CategoriaController(IRepository<Categoria> CategoriaServices)
         {
-            _CategoriaRepository = CategoriaRepository;
+            _CategoriaServices = CategoriaServices;
         }
         [HttpGet]
         public async Task<IActionResult> ListaCategorias()
         {
-            var categorias = await _CategoriaRepository.GetAll();
+            var categorias = await _CategoriaServices.GetAll();
             return Ok(categorias);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCategoriaById(int id)
         {
-            var result = await _CategoriaRepository.GetById(id);
+            var result = await _CategoriaServices.GetById(id);
             return Ok(result);
 
         }
@@ -33,7 +33,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Categoria))]
         public async Task<IActionResult> CrearCategorias(Categoria categoria)
         {
-            Categoria result = await _CategoriaRepository.Create(categoria);
+            Categoria result = await _CategoriaServices.Create(categoria);
             return new CreatedResult($"https://localhost:7112/api/Categoria/{result.Id_Categoria}", null);
         }
 
@@ -41,7 +41,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(bool))]
         public async Task<IActionResult> DeleteCategoria(int id)
         {
-            var result = await _CategoriaRepository.Delete(id);
+            var result = await _CategoriaServices.Delete(id);
             return new OkObjectResult(result);
         }
 
@@ -50,7 +50,7 @@ namespace ApiProductos.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetFamilia(Categoria categoria)
         {
-            Categoria? result = await _CategoriaRepository.Update(categoria);
+            Categoria? result = await _CategoriaServices.Update(categoria);
             if (result == null)
             return new NotFoundResult();
             return new OkObjectResult(result);

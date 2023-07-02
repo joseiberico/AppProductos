@@ -1,16 +1,17 @@
 ﻿using ApiProductos.Context;
 using ApiProductos.Models;
+using ApiProductos.Services.iServices;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace ApiProductos.Services
 {
-    public class ClienteRepository : iServices.IRepository<Cliente>
+    public class ClienteServices : IRepository<Cliente>
     {
         private readonly DbSet<Cliente> _DbSet;
         private readonly ProductosDbContext _context;
 
-        public ClienteRepository(ProductosDbContext context)
+        public ClienteServices(ProductosDbContext context)
         {
             _context = context;
             _DbSet = context.Set<Cliente>();
