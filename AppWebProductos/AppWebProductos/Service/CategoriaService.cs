@@ -28,6 +28,21 @@ namespace AppWebProductos.Service
             return categorias;
         }
 
+        public async Task<Categoria> GetCategoriaById(int categoriaId)
+        {
+            var response = await _Client.GetAsync(_baseurl + "Categoria/" + categoriaId);
+            var content = await response.Content.ReadAsStringAsync();
+
+            if (!response.IsSuccessStatusCode)
+            {
+                Console.WriteLine(content);
+                return null;
+            }
+
+            var categoria = JsonConvert.DeserializeObject<Categoria>(content);
+            return categoria;
+        }
+
         public async Task<Categoria> AddCategoria(Categoria categoria)
         {
             // Serializar el objeto cliente a JSON
@@ -53,5 +68,48 @@ namespace AppWebProductos.Service
 
             return categoriaAgregado;
         }
+
+        public async Task<Categoria> UpdateCategoria(Categoria categoria)
+        {
+            // Serializar el objeto categoria a JSON
+            var jsonCategoria = JsonConvert.SerializeObject(categoria);
+
+            // Crear el contenido HTTP con el JSON de la categoria
+            var httpContent = new StringContent(jsonCategoria, Encoding.UTF8, "application/json");
+
+            // Realizar la solicitud PUT al servidor
+            var response = await _Client.PutAsync(_baseurl + "Categoria", httpContent);
+
+            // Leer la respuesta del servidor
+            var content = await response.Content.ReadAsStringAsync();
+
+            if (!response.IsSuccessStatusCode)
+            {
+                Console.WriteLine(content);
+                return null;
+            }
+
+            // Deserializar la respuesta JSON en un objeto Categoria
+            var categoriaActualizada = JsonConvert.DeserializeObject<Categoria>(content);
+
+            return categoriaActualizada;
+        }
+
+        public async Task<bool> DeleteCategoria(int categoriaId)
+        {
+            // Realizar la solicitud DELETE al servidor
+            var response = await _Client.DeleteAsync(_baseurl + "Categoria/" + categoriaId);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                Console.WriteLine(content);
+                return false;
+            }
+
+            return true;
+        }
+
+
     }
 }

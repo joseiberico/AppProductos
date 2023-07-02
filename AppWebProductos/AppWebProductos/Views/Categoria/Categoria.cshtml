@@ -23,10 +23,10 @@
             <tr>
                 <td>@categoria.Id_Categoria</td>
                 <td>@categoria.Nombre</td>
-                <td>@categoria.descripcion</td>
+                <td>@categoria.Descripcion</td>
                 <td>
-                    <a class="btn btn-warning" asp-area="" asp-controller="Categoria" asp-action="EditarCategoria" asp-route-id="@categoria.Id_Categoria"><i class="bi bi-pencil-fill"></i>Editar</a>
-                    <a class="btn btn-danger" asp-area="" asp-controller="Categoria" asp-action="BorrarCategoria" asp-route-id="@categoria.Id_Categoria"><i class="bi bi-eraser-fill"></i>Borrar</a>
+                    <a class="btn btn-warning" asp-area="" asp-controller="Categoria" asp-action="ActualizarCategoria" asp-route-id="@categoria.Id_Categoria"><i class="bi bi-pencil-fill"></i> Actualizar</a>
+                    <a class="btn btn-danger" asp-area="" asp-controller="Categoria" asp-action="EliminarCategoria" asp-route-id="@categoria.Id_Categoria"><i class="bi bi-eraser-fill"></i>Borrar</a>
                 </td>
             </tr>
         }
